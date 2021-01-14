@@ -8,7 +8,7 @@ import sqlite3
 from sqlite3 import Error
 import pandas as pd
 '''CONNECT USING sqlite3 '''
-conn = sqlite3.connect('class.db')
+conn = sqlite3.connect('db_file_name.db')
 cursor = conn.cursor()
 print("Opened database successfully")
 cursor.close()
